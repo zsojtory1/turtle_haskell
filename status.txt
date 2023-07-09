@@ -1,0 +1,7 @@
+Parser: functional
+Interpreter: functional
+Renderer: functional
+
+Also implemented while-loop, added to expr parser:
+
+'while' <expr> <block>

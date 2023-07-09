@@ -1,0 +1,9 @@
+def testWhile (input:Int): Unit {
+    while (input < 4) {
+        forward(120);
+        right(90);
+        input = input + 1;
+    }
+}
+
+testWhile(0);
